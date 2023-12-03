@@ -1,4 +1,4 @@
-# Backend with Nodejs (Week 2 Workshop code)
+# Backend with Nodejs (Week 2 - workshop code)
 
 This is the code used in Workshop 2 in the Backend with Nodejs course.
 
