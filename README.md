@@ -6,7 +6,7 @@ This is the code used in Workshop 2 in the Backend with Nodejs course.
 
 1. To check the generated code from express-generator CLI, Go to the [express-generator](./express-generator) directory.
 
-2. To check the code used to connect to MongoDB using the Nodejs Driver, look at the [plain-mongodb-driver](./plain-mongodb-driver) directory.
+2. To check the code used to connect to MongoDB using the Nodejs Driver, look at the [plain-mongodb-driver](./plain-mongdb-driver) directory.
 
 3. To check the code used to connect to MongoDB using the Mongoose library, look at the [plain-mongoose](./plain-mongoose) directory.
 
