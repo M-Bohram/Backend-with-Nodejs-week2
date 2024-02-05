@@ -1,8 +1,9 @@
 const { MongoClient, ServerApiVersion } = require('mongodb');
 
+const username = "mbohram"
 const password = "Testing123"
 
-const uri = `mongodb+srv://mbohram:${password}@cluster0.7a0fwo5.mongodb.net/?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${username}:${password}@cluster0.7a0fwo5.mongodb.net/?retryWrites=true&w=majority`;
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
@@ -20,7 +21,7 @@ async function run() {
         // Send a ping to confirm a successful connection
         const db = await client.db("nucampdb");
 
-        db.collection("campsites").insertOne({ name: "Campsite 3"}).then((doc => console.log(doc)))
+        db.collection("campsites").insertOne({ name: "Campsite 1"}).then((doc => console.log(doc)))
         console.log("Pinged your deployment. You successfully connected to MongoDB Atlas!");
     }
     catch (err) {
