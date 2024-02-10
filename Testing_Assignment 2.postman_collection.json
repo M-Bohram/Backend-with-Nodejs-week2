@@ -215,7 +215,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"name\": \"partner 1\", \"description\": \"the description of partner 1\", \"image\": \"partner1.png\", \"elevation\": 1, \"cost\": 10}",
+					"raw": "{\"name\": \"partner 1\", \"description\": \"the description of partner 1\", \"image\": \"partner1.png\"}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -398,7 +398,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\"name\": \"promotion 1\", \"description\": \"the description of promotion 1\", \"image\": \"promotion1.png\", \"elevation\": 1, \"cost\": 10}",
+					"raw": "{\"name\": \"promotion 1\", \"description\": \"the description of promotion 1\", \"image\": \"promotion1.png\", \"cost\": 10}",
 					"options": {
 						"raw": {
 							"language": "json"
